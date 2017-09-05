@@ -4,5 +4,10 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "b7cc0be6",
   "uiCommonVersion": "5.1.2",
-  "creatorId": "gdljceci"
+  "creatorId": "gdljceci",
+  "id": "powewowsp2",
+  "previewImageURL": "/previews/b7cc0be6-powewowsp2/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/octopusdeveloper/powewowsp2",
+  "creatorName": "Jorge Carlos Ceciliano Esquinca"
 }
