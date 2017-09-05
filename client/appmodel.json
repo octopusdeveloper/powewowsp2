@@ -58,7 +58,7 @@
             "severity": {
               "type": "string"
             },
-            "summary": {
+            "summary2": {
               "type": "string"
             }
           }
