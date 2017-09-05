@@ -11,7 +11,7 @@ function app_vlogin($scope, app) {
     $scope.fLogin = function (sLoginUser , sLoginPass ){
         console.log("sUser="+sLoginUser);
         console.log("sPass="+sLoginPass);
-        $scope.bLoading=;
+        $scope.bLoading=true;
     }     
     
 }
