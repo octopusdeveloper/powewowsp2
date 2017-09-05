@@ -4,11 +4,11 @@ function app_vlogin($scope, app) {
     app.init($scope);
     
     $scope.sLoginUser="test";
-    $scope.sLoginPass = "tes";
+    $scope.sLoginPass = "test";
         
     $scope.fLogin = function (sLoginUser,sLoginPass){
-        console.log("sUser="+$scope.sLoginUser);
-        console.log("sPass="+$scope.sLoginPass);
+        console.log("sUser="+sLoginUser);
+        console.log("sPass="+sLoginPass);
     }     
     
 }
