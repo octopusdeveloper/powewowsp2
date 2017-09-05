@@ -3,8 +3,10 @@ function app_vlogin($scope, app) {
     'use strict';
     app.init($scope);
     
+    $scope.bLoading=
     $scope.sLoginUser="";
     $scope.sLoginPass = "";
+    
         
     $scope.fLogin = function (sLoginUser , sLoginPass ){
         console.log("sUser="+sLoginUser);
