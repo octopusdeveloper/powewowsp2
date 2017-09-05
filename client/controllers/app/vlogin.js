@@ -6,7 +6,7 @@ function app_vlogin($scope, app) {
     $scope.sLoginUser="";
     $scope.sLoginPass = "";
         
-    $scope.fLogin = function (){
+    $scope.fLogin = function (sLoginUser,sLoginPass){
         console.log("sUser="+$scope.sLoginUser);
         console.log("sPass="+$scope.sLoginPass);
     }     
