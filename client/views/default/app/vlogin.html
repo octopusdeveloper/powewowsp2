@@ -1,5 +1,50 @@
 <ion-view data-comp-id="ionic-view.1">
     <ion-content class="" data-comp-id="ionic-content.1">
-        <div class="stlLoginContent"></div>
+        <div class="stlLoginContent">
+            <div class="stlLogin1 Aligner2">
+                <div class="stlLogin2 Aligner-item--top2">
+                    <img src="img/logo1.png">
+                </div>
+                <div class="Aligner-item2">
+                    <div class="stlLogin3">
+                        <div class="stlLogin5">
+                            <div class="stlLogin6">
+                                <h1>Welcome!</h1>
+                            </div>
+                            <div style="clear: both;"></div>
+                            <div class="stlLogin7">
+                                <div class="form-group " style="padding: 0px;">
+                                    <label>E-mail</label>
+                                    <input class="form-control" ng-model="sLoginUser" placeholder="E-mail"
+                                        type="email">
+                                </div>
+                                <div class="form-group" style="padding: 0px;">
+                                    <label>Password</label>
+                                    <input class="form-control" ng-model="sLoginPass" placeholder="Password"
+                                        type="password">
+                                </div>
+                            </div>
+                            <div style="clear: both;"></div>
+                            <div class="stlLogin8">
+                                <button class="btn btn-custom1 btn-block"
+                                    ng-click="fLogin(sLoginUser,sLoginPass)">
+                                    Login
+                                </button>
+                            </div>
+                            <div style="clear: both;"></div>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                <div class="stlLogin4 Aligner-item--bottom2">
+                    <span>
+                        <img src="img/okta.png" style="width: 50px;">
+                    </span>
+                    <span>
+                        <img src="img/flexLogo1.png">
+                    </span>
+                </div>
+            </div>
+        </div>
     </ion-content>
 </ion-view>
