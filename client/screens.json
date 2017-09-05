@@ -34,12 +34,6 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "test"
-    },
-    {
-      "id": "myview",
-      "name": "myview",
-      "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
