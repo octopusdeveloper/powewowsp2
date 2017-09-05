@@ -12,6 +12,9 @@ function app_vlogin($scope, app, $timeout) {
         console.log("sUser="+sLoginUser);
         console.log("sPass="+sLoginPass);
         $scope.bLoading=true;
+        var timer = $timeout(function () {
+           $scope.bLoading=false;
+        }, 2000);
     }     
     
 }
