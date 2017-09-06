@@ -5,7 +5,6 @@ function app_vissueadd($scope, app,$timeout) {
     
     var timer = $timeout(function () {
          console.log("entro2!");
-        $ionicSideMenuDelegate.canDragContent(true);
         //$scope.bMenuVisible = true;     
     }, 2000);
    
