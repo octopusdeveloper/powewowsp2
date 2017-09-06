@@ -2,11 +2,11 @@ angular.module('app').controller('app', app);
 function app($rootScope,$scope, app, $timeout, $ionicSideMenuDelegate) {
     'use strict';
     $ionicSideMenuDelegate.canDragContent(false);
-    //$rootScope.bMenuVisible = false;
+    $rootScope.bMenuVisible = false;
     /**/
     var timer = $timeout(function () {
         //console.warn("bMenuVisible="+$rootScope.bMenuVisible);
-         //$rootScope.bMenuVisible = true; 
+         $rootScope.bMenuVisible = true; 
          //console.warn("bMenuVisible="+$rootScope.bMenuVisible);
         console.warn("entro");
         $ionicSideMenuDelegate.canDragContent(true);
