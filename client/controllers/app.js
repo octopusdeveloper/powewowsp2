@@ -3,7 +3,7 @@ function app($rootScope,$scope, app, $timeout) {
     'use strict';
     
     $rootScope.bMenuVisible = false;
-    /*
+    /**/
     var timer = $timeout(function () {
         console.warn("bMenuVisible="+$rootScope.bMenuVisible);
         $rootScope.bMenuVisible = true; 
@@ -11,7 +11,7 @@ function app($rootScope,$scope, app, $timeout) {
        
         
     }, 5000);
-    */
+    
     
     $rootScope.fEnableMenu = function(bValue){
          //$rootScope.bMenuVisible = bValue;
