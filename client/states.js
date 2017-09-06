@@ -60,5 +60,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.vissueadd', {
+        views: {
+            app: {
+                controller: 'app_vissueadd',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.vissueadd');
+                }
+            }
+        }
     });
 });
