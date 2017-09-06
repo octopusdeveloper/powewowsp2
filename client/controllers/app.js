@@ -5,7 +5,7 @@ function app($rootScope,$scope, app, $timeout) {
     $scope.bMenuVisible = true;
      var timer = $timeout(function () {
         console.warn("bMenuVisible="+$scope.bMenuVisible);
-         $scope.bMenuVisible = true;
+         $scope.bMenuVisible = false;
          console.warn("bMenuVisible="+$scope.bMenuVisible);
     }, 5000);
     
