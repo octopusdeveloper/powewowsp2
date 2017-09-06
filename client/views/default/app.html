@@ -1,9 +1,8 @@
 <ion-side-menus>
-    <ion-side-menu is-enabled="false&quot;" ng-if="isCanvas!==true"
-        ng-show="bMenuVisible" side="left">
+    <ion-side-menu ng-if="isCanvas!==true" ng-show="bMenuVisible" side="left">
         <include-screen name="menu"></include-screen>--&gt;
     </ion-side-menu>
-    <ion-side-menu-content>
+    <ion-side-menu-content drag-content="false">
         <ion-nav-view name="app"></ion-nav-view>
     </ion-side-menu-content>
 </ion-side-menus>
