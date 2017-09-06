@@ -2,5 +2,5 @@ angular.module('app').controller('app', app);
 function app($rootScope,$scope, app) {
     'use strict';
     
-    $scope.bMenuVisible = false;
+    $rootScope.bMenuVisible = false;
 }
