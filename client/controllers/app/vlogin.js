@@ -11,7 +11,6 @@ function app_vlogin($scope, app, $timeout) {
         console.log('sPass=' + sLoginPass);
         $scope.bLoading = true;
         var timer = $timeout(function () {
-            $scope.bLoading = false;
             console.warn("move home page");
             app.go('app.vissueadd')
         }, 2000);
