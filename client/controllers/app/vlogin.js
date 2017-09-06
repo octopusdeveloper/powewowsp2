@@ -14,9 +14,9 @@ function app_vlogin($scope, app, $timeout) {
         $scope.bLoading=true;
         var timer = $timeout(function () {
            $scope.bLoading=false;
-           //app.go('app.vIssueadd');
+           app.go('app.vIssueadd');
            //app.go('app.test');
-           $location.path('/vIssueadd');
+           //$location.path('/vIssueadd');
         }, 2000);
     }     
     
