@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "powewowsp2",
-  "startScreen": "app.vlogin",
+  "startScreen": "app.blank",
   "screens": [
     {
       "id": "blank",
