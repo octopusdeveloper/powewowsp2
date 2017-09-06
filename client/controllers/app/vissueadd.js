@@ -1,8 +1,12 @@
 angular.module('app').controller('app_vissueadd', app_vissueadd);
-function app_vissueadd($scope, app,$ionicSideMenuDelegate) {
+function app_vissueadd($scope, app,$timeout) {
     'use strict';
     app.init($scope);
-    console.log("entro!");
-    $ionicSideMenuDelegate.canDragContent(true);
-    //$scope.bMenuVisible = true;
+    
+    var timer = $timeout(function () {
+         console.log("entro2!");
+        $ionicSideMenuDelegate.canDragContent(true);
+        //$scope.bMenuVisible = true;     
+    }, 2000);
+   
 }
