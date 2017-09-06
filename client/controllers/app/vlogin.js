@@ -12,8 +12,8 @@ function app_vlogin($scope, app, $timeout) {
         $scope.bLoading = true;
         var timer = $timeout(function () {
             $scope.bLoading = false;
-            console.warn("move home page")
-            app.go('app.vIssueadd'); 
+            console.warn("move home page");
+            app.go('app.vissueadd')
         }, 2000);
     };
 }
