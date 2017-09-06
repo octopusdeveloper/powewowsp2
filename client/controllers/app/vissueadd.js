@@ -1,5 +1,5 @@
 angular.module('app').controller('app_vissueadd', app_vissueadd);
-function app_vissueadd($rootScope, app,$timeout) {
+function app_vissueadd($rootScope,$scope, app,$timeout) {
     'use strict';
     app.init($scope);
         
