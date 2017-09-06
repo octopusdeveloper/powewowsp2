@@ -1,18 +1,9 @@
-<ion-header>
-    <ion-navbar>
-        <button icon-only="" ion-button="" menutoggle="">
-            <ion-icon name="menu"></ion-icon>
-        </button>
-        <ion-title>
-            Page Title
-        </ion-title>
-        <ion-buttons end="">
-            <button (click)="openModal()" icon-only="" ion-button="">
-                <ion-icon name="options"></ion-icon>
-            </button>
-        </ion-buttons>
-    </ion-navbar>
-</ion-header>
+<ion-nav-bar class="bar-stable">
+    <ion-nav-back-button></ion-nav-back-button>
+    <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+    </ion-nav-buttons>
+</ion-nav-bar>
 <ion-view view-title="Playlists">
     content
 </ion-view>
