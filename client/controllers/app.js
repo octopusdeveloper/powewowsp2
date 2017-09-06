@@ -9,4 +9,8 @@ function app($rootScope,$scope, app, $timeout) {
          console.warn("bMenuVisible="+$scope.bMenuVisible);
     }, 5000);
     
+    $rootScope.fEnableMenu = function(bValue){
+        
+    }
+    
 }
