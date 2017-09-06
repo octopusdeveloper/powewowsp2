@@ -1,13 +1,22 @@
 <ion-view data-comp-id="ionic-view.1">
     <ion-content data-comp-id="ionic-content.1">
-        <ion-side-menus>
-            <!-- Left menu -->
-            <ion-side-menu side="left"></ion-side-menu>
-            <ion-side-menu-content>
-                <!-- Main content, usually <ion-nav-view> -->
-            </ion-side-menu-content>
-            <!-- Right menu -->
-            <ion-side-menu side="right"></ion-side-menu>
-        </ion-side-menus>
+        <side-menus>
+            <pane side-menu-content="">
+                <nav-bar type="bar-orange"></nav-bar>
+                <nav-view name="menuContent"></nav-view>
+            </pane>
+            <side-menu id="menu" side="left">
+                <header class="bar bar-header bar-ligth" style="height:80px;">
+                    <div class="title" id="menu-header"></div>
+                </header>
+                <content has-header="true" id="menu">
+                    <ul class="list" ng-click="toggleLeft()" style="margin-top: 35px;">
+                        <a class="item" href="#/tab/one" id="menu">one</a>
+                        <a class="item" href="#/tab/two" id="menu">two</a>
+                        <a class="item" href="#/tab/x" id="menu">x</a>
+                    </ul>
+                </content>
+            </side-menu>
+        </side-menus>
     </ion-content>
 </ion-view>
