@@ -2,7 +2,7 @@ angular.module('app').controller('app', app);
 function app($rootScope,$scope, app, $timeout) {
     'use strict';
     
-    //$rootScope.bMenuVisible = false;
+    $rootScope.bMenuVisible = false;
     /**/
     var timer = $timeout(function () {
         console.warn("bMenuVisible="+$rootScope.bMenuVisible);
