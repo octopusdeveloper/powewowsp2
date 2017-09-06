@@ -2,7 +2,7 @@ angular.module('app').controller('app_vissueadd', app_vissueadd);
 function app_vissueadd($rootScope, app,$timeout) {
     'use strict';
     app.init($scope);
-    
+        
     var timer = $timeout(function () {
         console.warn("entro1!");
         $rootScope.bMenuVisible = true;
