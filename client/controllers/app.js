@@ -1,5 +1,5 @@
 angular.module('app').controller('app', app);
-function app($rootScope,$scope, app, $timeout) {
+function app($rootScope,$scope, app, $timeout, $ionicSideMenuDelegate) {
     'use strict';
     
     $rootScope.bMenuVisible = false;
@@ -12,7 +12,7 @@ function app($rootScope,$scope, app, $timeout) {
     */
     $rootScope.fEnableMenu = function(bValue){
          $rootScope.bMenuVisible = bValue;
-         console.warn("fEnableMenu bMenuVisible="+$scope.bMenuVisible);
+         console.warn("fEnableMenu bMenuVisible="+$rootScope.bMenuVisible);
     }
     
 }
