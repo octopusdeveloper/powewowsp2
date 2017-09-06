@@ -4,8 +4,8 @@ function app_vissueadd($scope, app,$timeout) {
     app.init($scope);
     
     var timer = $timeout(function () {
-         console.log("entro2!");
-        //$scope.bMenuVisible = true;     
+        
+        $scope.bMenuVisible = true;     
     }, 2000);
    
 }
