@@ -10,7 +10,7 @@ function app($rootScope,$scope, app, $timeout) {
     }, 5000);
     
     $rootScope.fEnableMenu = function(bValue){
-        
+         $scope.bMenuVisible = bValue;
     }
     
 }
