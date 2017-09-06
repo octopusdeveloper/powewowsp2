@@ -9,7 +9,7 @@ function app($rootScope,$scope, app, $timeout, $ionicSideMenuDelegate) {
         //$rootScope.bMenuVisible = true; 
         //console.warn("bMenuVisible="+$rootScope.bMenuVisible);
         console.warn("entro");
-        //$ionicSideMenuDelegate.canDragContent(true);
+        $ionicSideMenuDelegate.canDragContent(true);
         
     }, 5000);
     
