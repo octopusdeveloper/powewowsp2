@@ -14,8 +14,8 @@ function app($rootScope,$scope, app, $timeout) {
     
     
     $rootScope.fEnableMenu = function(bValue){
-         $rootScope.bMenuVisible = bValue;
-         console.warn("fEnableMenu bMenuVisible="+$rootScope.bMenuVisible);
+         //$rootScope.bMenuVisible = bValue;
+         //console.warn("fEnableMenu bMenuVisible="+$rootScope.bMenuVisible);
     }
     
 }
