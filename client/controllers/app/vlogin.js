@@ -5,6 +5,7 @@ function app_vlogin($scope, app, $timeout) {
     $scope.bLoading = false;
     $scope.sLoginUser = '';
     $scope.sLoginPass = '';
+    $scope.sTest="nd"
     $scope.fLogin = function (sLoginUser, sLoginPass) {
         console.log('sUser=' + sLoginUser);
         console.log('sPass=' + sLoginPass);
