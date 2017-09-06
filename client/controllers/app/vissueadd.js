@@ -3,5 +3,5 @@ function app_vissueadd($scope, app) {
     'use strict';
     app.init($scope);
     
-    $scope.bMenuVisible = true;
+    //$scope.bMenuVisible = true;
 }
