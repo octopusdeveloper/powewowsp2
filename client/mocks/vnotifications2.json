@@ -13,7 +13,7 @@
         {
           "title": "New Request recived",
           "loggedDuration": "3h",
-          "description": "CTR000000000000001",
+          "description": "Number: CTR000000000000001",
           "status": "Info",
           "icon": "ion-information-circled"
         }
