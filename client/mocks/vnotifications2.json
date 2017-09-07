@@ -11,13 +11,6 @@
           "icon": "ion-ios-bell"
         },
         {
-          "title": "Training",
-          "loggedDuration": "18m",
-          "description": "Registrations open for Lean Manufacturing training",
-          "status": "Training",
-          "icon": "ion-help-buoy"
-        },
-        {
           "title": "Team Outings",
           "loggedDuration": "3h",
           "description": "Team Lunch. Plan your work accordingly  :)",
