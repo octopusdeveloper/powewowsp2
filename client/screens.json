@@ -83,6 +83,13 @@
       "name": "componentscheck",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
+    },
+    {
+      "id": "listviewcool1",
+      "name": "ListView-Cool1",
+      "sourceScreenId": "app.listview.listviewcool",
+      "sourceAppId": "universaltemplates",
+      "model": "listviewcool1"
     }
   ],
   "sourceAppId": "_blank",

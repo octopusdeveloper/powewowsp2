@@ -123,5 +123,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.listviewcool1', {
+        views: {
+            app: {
+                controller: 'app_listviewcool1',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.listviewcool1');
+                }
+            }
+        }
     });
 });
