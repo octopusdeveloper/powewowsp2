@@ -77,6 +77,12 @@
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
       "model": "listviewcool"
+    },
+    {
+      "id": "componentscheck",
+      "name": "componentscheck",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",

@@ -114,5 +114,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.componentscheck', {
+        views: {
+            app: {
+                controller: 'app_componentscheck',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.componentscheck');
+                }
+            }
+        }
     });
 });
