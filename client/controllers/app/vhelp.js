@@ -4,7 +4,7 @@ function app_vhelp($scope, app) {
     app.init($scope);
     
     $scope.fCallHelpSVN = function(){
-        console.warn("fCallShareNet");    
+        console.warn("fCallHelpSVN");    
     }
     
     $scope.fCallShareNet = function(){
