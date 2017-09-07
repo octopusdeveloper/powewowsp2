@@ -29,13 +29,6 @@
       "model": "login"
     },
     {
-      "id": "test",
-      "name": "test",
-      "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "model": "test"
-    },
-    {
       "id": "vlogin",
       "name": "vLogin",
       "sourceScreenId": "app.blank",
