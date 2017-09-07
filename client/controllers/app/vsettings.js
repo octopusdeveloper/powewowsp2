@@ -3,6 +3,6 @@ function app_vsettings($scope, app) {
     'use strict';
     app.init($scope);
     
-    $rootScope.configVersion="2.1.2";
-    $rootScope.configDescription="Whats new: Improved user experience and approval reminders";
+    $scope.configVersion="2.1.2";
+    $scope.configDescription="Whats new: Improved user experience and approval reminders";
 }
