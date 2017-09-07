@@ -11,7 +11,7 @@
           "icon": "ion-ios-bell"
         },
         {
-          "title": "New Reques",
+          "title": "New Request recived",
           "loggedDuration": "3h",
           "description": "CTR000000000000001",
           "status": "Info",
