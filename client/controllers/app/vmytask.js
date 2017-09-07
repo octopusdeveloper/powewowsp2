@@ -6,7 +6,7 @@ function app_vmytask($scope, app) {
     $scope.fReject = function(){
         console.warn("fReject");
     }
-    $scope.fA = function(){
-        console.warn("fReject");
+    $scope.fApprove = function(){
+        console.warn("fApprove");
     }
 }
