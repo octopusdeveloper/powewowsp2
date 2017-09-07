@@ -3,8 +3,5 @@ function app_menu($scope, app) {
     'use strict';
     app.init($scope);
     
-    $scope.fMenuGoTo = function (sValue){
-        console.warn("sValue="+sValue);
-        app.go('app.'+sValue);
-    }
+    
 }
