@@ -7,7 +7,7 @@ function app_vmytask($scope, app) {
         console.warn("fReject");
         var alertPopup = $ionicPopup.alert({
           title: 'eBPM',
-          template: 'It might taste good'
+          template: 'The request was successful'
         });
         alertPopup.then(function(res) {
           console.log('Thank you for not eating my delicious ice cream cone');
