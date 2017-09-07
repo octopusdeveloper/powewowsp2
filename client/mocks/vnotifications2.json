@@ -23,16 +23,18 @@
       "name": "Yesterday",
       "notifications": [
         {
-          "title": "CSR",
+          "title": "New Request received",
           "loggedDuration": "1d",
-          "description": "Be a volunteer for the EduCare CSR drive",
-          "icon": "ion-ios-information-outline"
+          "description": "Number: CTR000000000000002",
+          "status": "Info",
+          "icon": "ion-information-circled"
         },
         {
-          "title": "Sales",
+          "title": "New Request received",
           "loggedDuration": "1d",
-          "description": "Investor day briefings",
-          "icon": "ion-ios-information-outline"
+          "description": "Number: CTR000000000000003",
+          "status": "Info",
+          "icon": "ion-information-circled"
         }
       ]
     }
