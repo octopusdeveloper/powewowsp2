@@ -57,6 +57,12 @@
       "name": "vhelp",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
+    },
+    {
+      "id": "vnotificactions",
+      "name": "vnotificactions",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",

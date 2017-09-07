@@ -87,5 +87,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.vnotificactions', {
+        views: {
+            app: {
+                controller: 'app_vnotificactions',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.vnotificactions');
+                }
+            }
+        }
     });
 });
