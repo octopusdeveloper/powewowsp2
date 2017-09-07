@@ -78,5 +78,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.vhelp', {
+        views: {
+            app: {
+                controller: 'app_vhelp',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.vhelp');
+                }
+            }
+        }
     });
 });
