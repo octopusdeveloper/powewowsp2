@@ -42,31 +42,5 @@
         }
       }
     }
-  },
-  "test": {
-    "type": "object",
-    "comment": "",
-    "properties": {
-      "issueslist": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "string"
-            },
-            "severity": {
-              "type": "string"
-            },
-            "summary": {
-              "type": "string"
-            }
-          }
-        },
-        "update": {
-          "type": "none"
-        }
-      }
-    }
   }
 }
