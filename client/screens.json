@@ -42,12 +42,6 @@
       "sourceAppId": "_blank"
     },
     {
-      "id": "vissueadd",
-      "name": "vIssueadd",
-      "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
-    },
-    {
       "id": "tasklist",
       "name": "tasklist",
       "sourceScreenId": "app.blank",
