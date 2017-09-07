@@ -6,7 +6,7 @@
         {
           "title": "Updates",
           "loggedDuration": "7m",
-          "description": "Supply Chain module updates are available",
+          "description": "Improved user experience and approval reminders",
           "status": "Update",
           "icon": "ion-ios-bell"
         },
