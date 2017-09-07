@@ -60,15 +60,6 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.tasklist', {
-        views: {
-            app: {
-                controller: 'app_tasklist',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.tasklist');
-                }
-            }
-        }
     }).state('app.vmytask', {
         views: {
             app: {
