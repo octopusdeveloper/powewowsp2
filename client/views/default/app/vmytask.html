@@ -15,11 +15,12 @@
         <ion-list can-swipe="true" show-delete="false">
             <ion-item href="#">
                 Request: CTR000000000000001
-                <ion-option-button class="button-assertive icon ion-android-close"></ion-option-button>
+                <ion-option-button class="button-assertive icon ion-android-close"
+                    ng-click="fReject()"></ion-option-button>
                 <ion-option-button class="button-dark icon ion-android-funnel"
                     style="background:#28c3f1;"></ion-option-button>
                 <ion-option-button class="button-positive icon ion-android-done-all"
-                    style="background:green ;"></ion-option-button>
+                    ng-click="fA()" style="background:green ;"></ion-option-button>
             </ion-item>
             <ion-item href="#">
                 Request: CTR000000000000002
