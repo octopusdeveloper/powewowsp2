@@ -69,5 +69,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.vhistory', {
+        views: {
+            app: {
+                controller: 'app_vhistory',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.vhistory');
+                }
+            }
+        }
     });
 });
