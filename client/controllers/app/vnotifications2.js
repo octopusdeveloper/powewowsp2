@@ -4,7 +4,7 @@ function app_vnotifications2($scope, app) {
     app.init($scope);
     
     $scope.fBackWindow = function(){
-        console.warm("");
+        console.warn("fBackWindow");
         $ionicHistory.goBack();
     }
 }
