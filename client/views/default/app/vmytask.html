@@ -12,19 +12,19 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <ion-list>
-            <ion-item-sliding #item="">
-                <ion-item>
-                    Item
-                </ion-item>
-                <ion-item-options side="left">
-                    <button (click)="favorite(item)" ion-button="">Favorite</button>
-                    <button (click)="share(item)" color="danger" ion-button="">Share</button>
-                </ion-item-options>
-                <ion-item-options side="right">
-                    <button (click)="unread(item)" ion-button="">Unread</button>
-                </ion-item-options>
-            </ion-item-sliding>
+        <ion-list can-swipe="true" show-delete="false">
+            <ion-item href="#">
+                Item 1
+                <ion-option-button class="button-light icon ion-heart"></ion-option-button>
+                <ion-option-button class="button-light icon ion-email"></ion-option-button>
+                <ion-option-button class="button-assertive icon ion-trash-a"></ion-option-button>
+            </ion-item>
+            <ion-item href="#">
+                Item 2
+                <ion-option-button class="button-light icon ion-heart"></ion-option-button>
+                <ion-option-button class="button-light icon ion-email"></ion-option-button>
+                <ion-option-button class="button-assertive icon ion-trash-a"></ion-option-button>
+            </ion-item>
         </ion-list>
     </ion-content>
     <div class="footer-button-bar" data-comp-id="footer-bar-buttons.1"
