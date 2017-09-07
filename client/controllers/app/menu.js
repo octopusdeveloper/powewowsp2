@@ -4,6 +4,7 @@ function app_menu($scope, app) {
     app.init($scope);
     
     $scope.fMenuGoTo = function (sValue){
+        console.warn("sValue=")
         app.go('app.'+sValue);
     }
 }
