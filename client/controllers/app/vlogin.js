@@ -55,13 +55,9 @@ function app_vlogin($scope, app, $timeout, $http) {
           console.log("status="+JSON.stringify(status));
           //console.log("resultAction="+JSON.stringify(data.result.resultAction));
 
-
-
-
           if (data.result.resultAction){
                 app.go('app.vmytask');
-
-           
+ 
           }else{
             
           }
