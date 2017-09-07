@@ -90,6 +90,13 @@
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
       "model": "listviewcool1"
+    },
+    {
+      "id": "vdetails",
+      "name": "vdetails",
+      "sourceScreenId": "app.detailsview.detailsviewcaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "vdetails"
     }
   ],
   "sourceAppId": "_blank",

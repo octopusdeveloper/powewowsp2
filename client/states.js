@@ -132,5 +132,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.vdetails', {
+        views: {
+            app: {
+                controller: 'app_vdetails',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.vdetails');
+                }
+            }
+        }
     });
 });
