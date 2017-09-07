@@ -70,6 +70,13 @@
       "sourceScreenId": "app.notifications.notificationscaptivating",
       "sourceAppId": "universaltemplates",
       "model": "vnotifications2"
+    },
+    {
+      "id": "listviewcool",
+      "name": "ListView-Cool",
+      "sourceScreenId": "app.listview.listviewcool",
+      "sourceAppId": "universaltemplates",
+      "model": "listviewcool"
     }
   ],
   "sourceAppId": "_blank",
