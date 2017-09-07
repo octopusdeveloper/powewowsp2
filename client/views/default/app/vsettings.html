@@ -12,7 +12,132 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
-        content
+        <div class="stlTittle stlSettings2">
+            Sort requests by:
+        </div>
+        <div style="clear: both"></div>
+        <div class="stlTittleLine"></div>
+        <div style="clear: both"></div>
+        <div class="stlSettings3">
+            <div onclick="fSettingsOrder(1);"
+                style="background:none; width: 100%; left: 0; height: 45px; position: absolute; z-index: 10;"></div>
+            <div class="stlSettings4">
+                By Date
+            </div>
+            <div class="stlSettings4b">
+                <!--
+              <ui-switch ng-click="fSettingsOrder(1);" ng-model="SettCtr.settingsOrder1" style="float: right;"></ui-switch>
+              -->
+                <label class="switch2">
+                    <input id="up" type="checkbox" value="1">
+                    <div class="slider2 round2"></div>
+                </label>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        <div style="  clear: both"></div>
+        <div class="stlSettings3">
+            <div onclick="fSettingsOrder(2);"
+                style="background:none; width: 100%; left: 0; height: 45px; position: absolute; z-index: 10;"></div>
+            <div class="stlSettings4">
+                By Request
+            </div>
+            <div class="stlSettings4b">
+                <!--
+              <ui-switch ng-click="fSettingsOrder(2);" ng-model="SettCtr.settingsOrder2" style="float: right;"></ui-switch>
+              -->
+                <label class="switch2">
+                    <input id="down" type="checkbox" value="1">
+                    <div class="slider2 round2"></div>
+                </label>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        <div style="clear: both"></div>
+        <div class="stlTittle stlSettings2">
+            Reminders
+        </div>
+        <div style="clear: both"></div>
+        <div class="stlTittleLine"></div>
+        <div style="clear: both"></div>
+        <div style="clear: both"></div>
+        <div class="stlSettings3">
+            <div onclick="fSettingsNotifications1(-1);"
+                style="background:none; width: 100%; left: 0; height: 45px; position: absolute; z-index: 10;"></div>
+            <div class="stlSettings4">
+                Active
+            </div>
+            <div class="stlSettings4b">
+                <label class="switch2">
+                    <input id="tagActiveNot" type="checkbox" value="1">
+                    <div class="slider2 round2"></div>
+                </label>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        <div style="  clear: both"></div>
+        <div class="stlSettings3" id="divTime2z" style="display: none;">
+            <div onclick="fSettingsNotifications2(2);"
+                style="background:none; width: 100%; left: 0; height: 45px; position: absolute; z-index: 10;"></div>
+            <div class="stlSettings4">
+                For days
+            </div>
+            <div class="stlSettings4b">
+                <label class="switch2">
+                    <input id="forDays" type="checkbox" value="1">
+                    <div class="slider2 round2"></div>
+                </label>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        <div style="clear: both"></div>
+        <div class="stlSettings3" id="divTime1z" style="display: none;">
+            <div onclick="fSettingsNotifications2(1);"
+                style="background:none; width: 100%; left: 0; height: 45px; position: absolute; z-index: 10;"></div>
+            <div class="stlSettings4">
+                For hours
+            </div>
+            <div class="stlSettings4b">
+                <label class="switch2">
+                    <input id="forHours" type="checkbox" value="1">
+                    <div class="slider2 round2"></div>
+                </label>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        <div style="clear: both"></div>
+        <!--
+      <div class="stlSettings5">
+          <a href="#/logs" class="btn btn-custom1 btn-block">
+              Recent Actions
+          </a>
+      </div>
+
+      <div style="clear: both"></div>
+
+      <div class="stlSettings5">
+          <a href="#/help" class="btn btn-custom1 btn-block">
+              Help
+          </a>
+      </div>
+      -->
+        <div style="clear: both"></div>
+        <div class="stlSettings6">
+            <img src="img/logo2.png">
+        </div>
+        <div style="clear: both"></div>
+        <div class="stlSettings7">
+            Ver.
+            {{configVersion}}
+            {{sEnvironment}}
+        </div>
+        <div style="clear: both"></div>
+        <div class="stlSettings8" style="width: 90%; margin: auto;">
+            {{configDescription}}
+        </div>
+        <div style="clear: both"></div>
+        <div style="width: 100%; height: 30px;"></div>
+        <div style="clear: both"></div>
     </ion-content>
     <div class="footer-button-bar" data-comp-id="footer-bar-buttons.1"
         dynamic-floating-footer=""
