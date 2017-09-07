@@ -15,5 +15,12 @@ function app_vmytask($scope, app, $ionicPopup) {
     }
     $scope.fApprove = function(){
         console.warn("fApprove");
+        var alertPopup = $ionicPopup.alert({
+          title: 'eBPM',
+          template: 'The request was successful'
+        });
+        alertPopup.then(function(res) {
+          console.log('Thank you for not eating my delicious ice cream cone');
+        });
     }
 }
