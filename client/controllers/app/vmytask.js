@@ -1,5 +1,5 @@
 angular.module('app').controller('app_vmytask', app_vmytask);
-function app_vmytask($scope, app) {
+function app_vmytask($scope, app, $ionicPopup) {
     'use strict';
     app.init($scope);
     
