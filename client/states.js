@@ -96,5 +96,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.vnotifications2', {
+        views: {
+            app: {
+                controller: 'app_vnotifications2',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.vnotifications2');
+                }
+            }
+        }
     });
 });

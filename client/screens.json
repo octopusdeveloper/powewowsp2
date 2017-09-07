@@ -63,6 +63,13 @@
       "name": "vnotificactions",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
+    },
+    {
+      "id": "vnotifications2",
+      "name": "vnotifications2",
+      "sourceScreenId": "app.notifications.notificationscaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "vnotifications2"
     }
   ],
   "sourceAppId": "_blank",
