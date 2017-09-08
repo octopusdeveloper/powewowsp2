@@ -9,9 +9,9 @@ function app_vmytask($scope, app, $ionicPopup) {
           title: 'eBPM',
           template: 'The request was successful'
         });
-        alertPopup.then(function(res) {
-          console.log('Thank you for not eating my delicious ice cream cone');
-        });
+        
+         $scope.fAlertMsg("eBPM","v","success");
+       
     }
     $scope.fApprove = function(){
         console.warn("fApprove");
