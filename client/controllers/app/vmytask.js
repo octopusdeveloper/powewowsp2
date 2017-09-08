@@ -10,12 +10,15 @@ function app_vmytask($scope, app, $ionicPopup) {
           title: 'eBPM',
           template: 'The request was successful'
         });
+        alertPopup.then(function(res) {
+          console.log('Thank you for not eating my delicious ice cream cone');
+        });
         */
-        $scope.fAlertMsg("eBPM","The request was successful","success");
+        $scope.fAlertMsg("eBPM","The request was successful","error");
        
     }
     $scope.fApprove = function(){
-        console.warn("fApprove");
+        /*
         var alertPopup = $ionicPopup.alert({
           title: 'eBPM',
           template: 'The request was successful'
@@ -23,6 +26,8 @@ function app_vmytask($scope, app, $ionicPopup) {
         alertPopup.then(function(res) {
           console.log('Thank you for not eating my delicious ice cream cone');
         });
+        */
+        $scope.fAlertMsg("eBPM","The request was successful","success");
     }
     
       $scope.fAlertMsg = function(sTittle, sMsg, sType) {
