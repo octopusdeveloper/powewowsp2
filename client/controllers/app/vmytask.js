@@ -4,7 +4,7 @@ function app_vmytask($scope, app, $ionicPopup) {
     app.init($scope);
     
     $scope.fReject = function(){
-        console.warn("fReject");
+        console.warn("fReject"); 
         /*
         var alertPopup = $ionicPopup.alert({
           title: 'eBPM',
@@ -14,7 +14,7 @@ function app_vmytask($scope, app, $ionicPopup) {
           console.log('Thank you for not eating my delicious ice cream cone');
         });
         */
-        $scope.fAlertMsg("eBPM","The request was successful","error");
+        $scope.fAlertMsg("eBPM","Information couldn’t be retrieved, please check your access & internet connection","error");
        
     }
     $scope.fApprove = function(){
