@@ -5,12 +5,13 @@ function app_vmytask($scope, app, $ionicPopup) {
     
     $scope.fReject = function(){
         console.warn("fReject");
+        /*
         var alertPopup = $ionicPopup.alert({
           title: 'eBPM',
           template: 'The request was successful'
         });
-        
-         $scope.fAlertMsg("eBPM","v","success");
+        */
+        $scope.fAlertMsg("eBPM","The request was successful","success");
        
     }
     $scope.fApprove = function(){
