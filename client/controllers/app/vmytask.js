@@ -23,4 +23,17 @@ function app_vmytask($scope, app, $ionicPopup) {
           console.log('Thank you for not eating my delicious ice cream cone');
         });
     }
+    
+      $scope.fAlertMsg = function(sTittle, sMsg, sType) {
+        rplm({
+          title: sTittle,
+          text: sMsg,
+          type: sType,
+          html: true,
+          modalNOverlay: 'white',
+          confirmButtonText: 'Ok',
+          allowOutsideClick: true,
+        });
+    
+      }
 }
